@@ -31,12 +31,12 @@ You can view these in the `.env.example` file. Keep these in mind for the next p
 ### Hosting on Repl.it
 There's a Repl for this on Repl.it [here](https://replit.com/@GreyHimmel/pk-switch-ping). You'll need to fork this Repl and continue with the steps below in order to have it host your script
 
-**Steps**
+**Steps**  
 1. Fork the Repl linked above
 1. Click the lock icon on the left sidebar ("Secrets") and enter each environment variable mentioned in the last section. **Make sure the names are all caps!**
 1. Click the "Run" button at the top and it should now be running!
 
-**Keeping it online**
+**Keeping it online**  
 Repl.it isn't a 24/7 host usually- instead, you have to do some extra steps to keep your Repl alive
 1. Go to [UptimeRobot.com](https://uptimerobot.com/)
 1. Log in or create a new account and proceed to the dashboard
@@ -49,10 +49,10 @@ Repl.it isn't a 24/7 host usually- instead, you have to do some extra steps to k
 ### Hosting on a VPS
 For this, you'll need your own VPS instance. **You should know what you're doing before trying to self-host this way!**
 
-**Requirements**
+**Requirements**  
 - Nodejs 16+
 
-**Steps**
+**Steps**  
 1. Clone/download this repo onto your VPS and extract it somewhere safe
 1. Copy the `.env.example` file and rename it to `.env`, then fill in the variables there
 1. Open your terminal and navigate it to the extracted files
@@ -60,7 +60,7 @@ For this, you'll need your own VPS instance. **You should know what you're doing
 1. Run `node index` to run the program
 1. It should now be running on your VPS
 
-**Further setup**
+**Further setup**  
 If you're using a VPS, you'll likely need to set up a domain and DNS settings to make your script available to the outside world. **Unfortunately, we can't help with this,** but we do recommend using NginX to proxy traffic to your script after setting up your DNS
 
 ## PK Setup
@@ -74,12 +74,12 @@ Once you've gotten hosting set up, you'll have to run some commands in PluralKit
 If you'd like to make changes, you're more than welcome to! Here are a few things to use as ideas:
 
 1. Change the text that appears on the home page
-  - Replace the text on lines 13-18 to be whatever you want!
+    - Replace the text on lines 13-18 to be whatever you want!
 1. Change the text that you see when you get pinged
-  - Replace the text on lines 28-29 to say what you want headmates to see!
+    - Replace the text on lines 28-29 to say what you want headmates to see!
 1. Add variables to address your headmates by name **(you should probably know a bit of coding for this!)**
-  - As part of the above, you can also add in parts to address your headmates
-  - Note that you'll need to fetch the members of the switch, then extract their names
+    - As part of the above, you can also add in parts to address your headmates
+    - Note that you'll need to fetch the members of the switch, then extract their names
 
 ## Support
 If you need help with this, feel free to join our support server [here](https://discord.gg/EvDmXGt)
