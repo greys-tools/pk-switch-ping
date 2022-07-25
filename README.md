@@ -29,7 +29,7 @@ There are only a few environment variables for this script. They are:
 You can view these in the `.env.example` file. Keep these in mind for the next parts
 
 ### Hosting on Repl.it
-There's a Repl for this on Repl.it [here](). You'll need to fork this Repl and continue with the steps below in order to have it host your script
+There's a Repl for this on Repl.it [here](https://replit.com/@GreyHimmel/pk-switch-ping). You'll need to fork this Repl and continue with the steps below in order to have it host your script
 
 **Steps**
 1. Fork the Repl linked above
@@ -66,7 +66,7 @@ If you're using a VPS, you'll likely need to set up a domain and DNS settings to
 ## PK Setup
 Once you've gotten hosting set up, you'll have to run some commands in PluralKit to get the script working
 
-1. Run `pk;s hook yoururl`, where "yoururl" should be replaced with the link to wherever you're hosting the script (eg: `https://Ping-On-Switch.greyhimmel.repl.co`)
+1. Run `pk;s hook yoururl`, where "yoururl" should be replaced with the link to wherever you're hosting the script (eg: `https://replit.com/@GreyHimmel/pk-switch-ping`)
 1. Set the `PK_SECRET` variable to the token given to you by PK and restart your script
 1. Everything should now be set up properly!
 
@@ -82,4 +82,4 @@ If you'd like to make changes, you're more than welcome to! Here are a few thing
   - Note that you'll need to fetch the members of the switch, then extract their names
 
 ## Support
-If you need help with this, feel free to join our support server [here]()
+If you need help with this, feel free to join our support server [here](https://discord.gg/EvDmXGt)
